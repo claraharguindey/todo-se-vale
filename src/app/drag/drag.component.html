@@ -1,0 +1,112 @@
+
+<div class="wrapper">
+  <div>
+      <p *ngIf="!open"> <span><span class="welcome">¡Bienvenidaaaa!</span>
+          <br> Esta ciudad es una ciudad <span class="loco">LIBRE</span> que será <span class="purpurina">lo que tú quieras que sea</span>. Arrastra sobre el mapa aquellos elementos que <span class="delfin">quieres</span> que formen parte de esta ciudad maravillosa y <span class="ew">LIBRE </span>  <span class="cat">LIBREEEEE</span> TODO SE VALEE!!!!!!!</span> <br>
+  <button (click)="open=!open">IR A LA CIUDAD</button>
+  <a class="a" href="https://www.desmusea.com/micropolix" target="_blank"> <br>ir a desmusea</a>
+
+      </p>
+
+
+    <div class="item supermercado" cdkDrag>
+    </div>
+    <div class="text">
+        supermercado
+      </div>
+
+    <div class="item dinerito" cdkDrag>
+    </div>
+    <div class="text">
+        más dinerito
+      </div>
+
+       <div class="item zoologico" cdkDrag>
+      </div>
+      <div class="text" >
+          zoologico
+        </div>
+
+
+      <div class="boundary">
+
+        <div class="item topmanta" cdkDragBoundary=".boundary" cdkDrag>
+        </div>
+      </div>
+      <div class="text">
+          topmanta
+        </div>
+
+
+    <div class="boundary">
+
+      <div class="item okupa" cdkDragBoundary=".boundary" cdkDrag>
+      </div>
+    </div>
+    <div class="text">
+        jóvenes okupas
+      </div>
+
+    <div class="boundary">
+      <div class="item cuestionar" cdkDragBoundary=".boundary" cdkDrag>
+      </div>
+    </div>
+  </div>
+  <div class="text">
+      cuestionar algo
+    </div>
+
+  <div class="column1">
+
+    <div class="item purpu" cdkDrag>
+    </div>
+    <div class="text">
+        creatividad
+      </div>
+
+
+      <div class="item zara" cdkDrag>
+      </div>
+      <div class="text">
+          zara
+        </div>
+
+
+    <div class="boundary2">
+    <div class="item juego" cdkDragBoundary=".boundary2" cdkDrag>
+    </div>
+  </div>
+  <div class="text">
+      juego libre
+    </div>
+
+
+
+      <div class="item museo" cdkDrag>
+    </div>
+    <div class="text">
+        museo
+      </div>
+
+
+      <div class="item salvame" cdkDrag>
+      </div>
+      <div class="text">
+          salvame okupa
+        </div>
+
+
+    <div class="boundary2">
+      <div class="item desobediencia" cdkDragBoundary=".boundary2" cdkDrag>
+      </div>
+    </div>
+    <div class="text">
+        desobediencia
+      </div>
+
+  </div>
+
+
+
+
+  </div>
